@@ -2,14 +2,14 @@
 
 
 
-WG Working Group                                              Y. N. Here
-Internet-Draft                                    Your Organization Here
-Intended status: Informational                              9 March 2025
-Expires: 10 September 2025
+WG Working Group                                               P. Keller
+Internet-Draft                                               Open Future
+Intended status: Informational                             23 March 2025
+Expires: 24 September 2025
 
 
-                           TODO - Your title
-                  draft-todo-yourname-protocol-latest
+                   Proposal for an Opt-Out Vocabulary
+                       draft-keller-aipref-vocab
 
 Abstract
 
@@ -21,15 +21,15 @@ About This Document
 
    The latest revision of this draft can be found at
    https://example.com/LATEST.  Status information for this document may
-   be found at https://datatracker.ietf.org/doc/draft-todo-yourname-
-   protocol/.
+   be found at https://datatracker.ietf.org/doc/draft-keller-aipref/.
 
    Discussion of this document takes place on the WG Working Group
-   mailing list (mailto:WG@example.com), which is archived at
-   https://example.com/WG.
+   mailing list (mailto:ai-control@ietf.org), which is archived at
+   https://example.com/WG.  Subscribe at
+   https://www.ietf.org/mailman/listinfo/ai-control/.
 
    Source for this draft and an issue tracker can be found at
-   https://github.com/USER/REPO.
+   https://github.com/paul2keller/opt-out-vocab-id.
 
 Status of This Memo
 
@@ -46,7 +46,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 10 September 2025.
+   This Internet-Draft will expire on 24 September 2025.
 
 Copyright Notice
 
@@ -109,6 +109,6 @@ Acknowledgments
 
 Author's Address
 
-   Your Name Here
-   Your Organization Here
-   Email: your.email@example.com
+   Paul Keller
+   Open Future
+   Email: paul@openfuture.eu
