@@ -36,11 +36,11 @@ normative:
 informative:
 
 * [A Vocabulary for Opting Out of AI Training and Other Forms of TDM](https://openfuture.eu/publication/a-vocabulary-for-opting-out-of-ai-training-and-other-forms-of-tdm/), Paul Keller (2025)
+* [Directive (EU) 2019/790 of the European Parliament and of the Council of 17 April 2019 on copyright and related rights in the Digital Single Market](https://eur-lex.europa.eu/eli/dir/2019/790/oj/eng)
 
 --- abstract
 
-TODO Abstract
-
+This document proposes a standardized vocabulary of use cases that can be targeted when expressing machine-readable opt-outs related to Text and Data Mining (TDM) and AI training. The vocabulary is agnostic to specific opt-out mechanisms and enables declaring parties to communicate restrictions or permissions regarding the use of their digital assets in a structured and interoperable manner. It defines three key use cases—TDM, AI Training, and Generative AI Training—which can be referenced by opt-out systems to ensure consistent interpretation across different implementations.
 
 --- middle
 
