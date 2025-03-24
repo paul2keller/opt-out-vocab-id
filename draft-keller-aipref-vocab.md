@@ -111,7 +111,7 @@ This document has no IANA actions.
 # Acknowledgments
 {:numbered="false"}
 
-The following individuals have been involved in the drafting of the proposal
+The following individuals have been involved in the drafting of the proposal:
 
 * Cullen Miller, Spawing.ai
 * Sebastian Posth, Liccium
