@@ -89,6 +89,8 @@ The TDM category is the overarching category that includes the AI training categ
 
 The figure below shows the relationship between the currently defined categories:
 
+TODO add figure
+
 Systems referencing the vocabulary must not introduce additional categories that include existing categories defined in the vocabulary or otherwise include additional hierarchical relationships.
 
 # Usage
@@ -109,4 +111,11 @@ This document has no IANA actions.
 # Acknowledgments
 {:numbered="false"}
 
-TODO acknowledge.
+The following individuals have been involved in the drafting of the proposal
+
+* Cullen Miller, Spawing.ai
+* Sebastian Posth, Liccium
+* Leonard Rosenthol, Adobe
+* Laurent Le Meur, EDRLab 
+
+
