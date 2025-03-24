@@ -46,15 +46,6 @@ This document proposes a standardized vocabulary of use cases that can be target
 
 # Introduction
 
-TODO Introduction
-
-
-# Conventions and Definitions
-
-{::boilerplate bcp14-tagged}
-
-# Purpose
-
 The purpose of this document is to provide a common vocabulary that can be used for machine-readable opt-outs by parties who wish to restrict the use of their assets for the purpose of AI training and other forms of Text and Data Mining (TDM).
 
 The elements of the vocabulary can be used to describe, in a standardized way, the types of uses that a declaring party may wish to restrict (or allow), thereby ensuring that opt-outs can be communicated, processed and stored in a consistent and interoperable manner.
@@ -62,6 +53,10 @@ The elements of the vocabulary can be used to describe, in a standardized way, t
 The vocabulary is agnostic to the technical implementations of opt-out systems and is designed to ensure that opt-out information can be effectively exchanged between different systems. The vocabulary is intended to govern the use of works in the context of training AI models and other forms of TDM but does not concern itself with the collection of training data (crawling). In particular the vocabulary is not intended for expressing instructions or restrictions related to crawling for the purpose of building a search index, as there are already more specific standards and protocols for this purpose including but not limited to [RFC9309](https://datatracker.ietf.org/doc/rfc9309/).
 
 The vocabulary is intended to both work in contexts where such opt-outs expressed to the declaring party give rise to legal obligation (such as rights reservation made by rightholders) and in contexts where this is not the case. It is without prejudice to applicable laws and the applicability of exceptions and limitations.
+
+# Conventions and Definitions
+
+{::boilerplate bcp14-tagged}
 
 # Definitions
 
