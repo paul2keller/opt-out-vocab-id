@@ -92,7 +92,7 @@ The figure below shows the relationship between the currently defined categories
 <figure>
 <name>NMS View of Device State</name>
 <artset>
-<artwork type="svg" src="https://www.rfc-editor.org/materials/format/svg/stream.svg"/>
+<artwork type="svg" src="http://www.openfuture.eu/wp-content/uploads/2025/03/vocab-overview.svg"/>
 <artwork type="ascii-art">
 +--------------------------------------------------------------------------+
 |                                                                          |
