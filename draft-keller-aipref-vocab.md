@@ -89,7 +89,29 @@ The TDM category is the overarching category that includes the AI training categ
 
 The figure below shows the relationship between the currently defined categories:
 
-TODO add figure
+<figure>
+<name>NMS View of Device State</name>
+<artset>
+<artwork type="svg" src="https://www.rfc-editor.org/materials/format/svg/stream.svg"/>
+<artwork type="ascii-art">
++--------------------------------------------------------------------------+
+|                                                                          |
+|                          Text and Data Mining (TDM)                      |
+|                                                                          |
+| +--------------------------------------------+  +- - - - - - - - - - -+  |
+| |  +--------------------------+              |  |                     |  |
+| |  |                          |              |                           |
+| |  |                          |              |  |    [possibly]:      |  |
+| |  | Generative AI Training   |  AI Training |                           |
+| |  |                          |              |  |  Other use cases    |  |
+| |  |                          |              |                           |
+| |  +--------------------------+              |  |                     |  |
+| +--------------------------------------------+  +- - - - - - - - - - -+  |
+|                                                                          |
++--------------------------------------------------------------------------+ 
+</artwork>
+</artset>
+</figure>
 
 Systems referencing the vocabulary must not introduce additional categories that include existing categories defined in the vocabulary or otherwise include additional hierarchical relationships.
 
