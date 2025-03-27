@@ -31,12 +31,13 @@ author:
 
 normative:
 
-* [RFC9309](https://datatracker.ietf.org/doc/rfc9309/): Robots Exclusion Protocol
-
 informative:
-
-* [A Vocabulary for Opting Out of AI Training and Other Forms of TDM](https://openfuture.eu/publication/a-vocabulary-for-opting-out-of-ai-training-and-other-forms-of-tdm/), Paul Keller (2025)
-* [Directive (EU) 2019/790 of the European Parliament and of the Council of 17 April 2019 on copyright and related rights in the Digital Single Market](https://eur-lex.europa.eu/eli/dir/2019/790/oj/eng)
+ EUCD2019:
+    title: "Directive (EU) 2019/790 of the European Parliament and of the Council of 17 April 2019 on copyright and related rights in the Digital Single Market"
+    target: https://eur-lex.europa.eu/eli/dir/2019/790/oj
+    author:
+     org: European Union
+    date: "2019-05-17"
 
 --- abstract
 
@@ -50,7 +51,7 @@ The purpose of this document is to provide a common vocabulary that can be used 
 
 The elements of the vocabulary can be used to describe, in a standardized way, the types of uses that a declaring party may wish to restrict (or allow), thereby ensuring that opt-outs can be communicated, processed and stored in a consistent and interoperable manner.
 
-The vocabulary is agnostic to the technical implementations of opt-out systems and is designed to ensure that opt-out information can be effectively exchanged between different systems. The vocabulary is intended to govern the use of works in the context of training AI models and other forms of TDM but does not concern itself with the collection of training data (crawling). In particular the vocabulary is not intended for expressing instructions or restrictions related to crawling for the purpose of building a search index, as there are already more specific standards and protocols for this purpose including but not limited to [RFC9309](https://datatracker.ietf.org/doc/rfc9309/).
+The vocabulary is agnostic to the technical implementations of opt-out systems and is designed to ensure that opt-out information can be effectively exchanged between different systems. The vocabulary is intended to govern the use of works in the context of training AI models and other forms of TDM but does not concern itself with the collection of training data (crawling). In particular the vocabulary is not intended for expressing instructions or restrictions related to crawling for the purpose of building a search index, as there are already more specific standards and protocols for this purpose including but not limited to {{!RFC9309}}.
 
 The vocabulary is intended to both work in contexts where such opt-outs expressed to the declaring party give rise to legal obligation (such as rights reservation made by rightholders) and in contexts where this is not the case. It is without prejudice to applicable laws and the applicability of exceptions and limitations.
 
@@ -65,7 +66,7 @@ The vocabulary is intended to both work in contexts where such opt-outs expresse
 
 # Vocabulary Structure
 
-The vocabulary consists of the overarching TDM (Text and Data Mining) category and a number of specific use cases that can be addressed independently. The overarching category `TDM` is based on the definition of Text and Data Mining in [Article 2(2) of the European Union Directive on Copyright in the Digital Single Market](https://eur-lex.europa.eu/eli/dir/2019/790/oj/eng#art_2).
+The vocabulary consists of the overarching TDM (Text and Data Mining) category and a number of specific use cases that can be addressed independently. The overarching category `TDM` is based on the definition of Text and Data Mining in Article 2(2) of {{?EUCD2019}}.
 
 # Proposed Vocabulary
 
@@ -79,7 +80,7 @@ This list of specific use cases may be expanded in the future, should a consensu
 
 ## Relationship with more specific instructions
 
-The vocabulary does not preclude the use of other specific categories. Any opt-outs based on this vocabulary shall not be interpreted as restricting the use of the work(s) strictly for the purpose of search and discovery as long as no restriction is declared through search-specific means such as [RFC9309](https://datatracker.ietf.org/doc/rfc9309/).
+The vocabulary does not preclude the use of other specific categories. Any opt-outs based on this vocabulary shall not be interpreted as restricting the use of the work(s) strictly for the purpose of search and discovery as long as no restriction is declared through search-specific means such as {{!RFC9309}}.
 
 When using this vocabulary more specific instructions — either based on the vocabulary or derived from other protocols — should be given preference over less specific ones.
 
