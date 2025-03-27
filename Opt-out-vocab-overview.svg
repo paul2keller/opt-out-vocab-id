@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="750" height="300" viewBox="0 0 750 300">
+  <title>Opt-out vocabulary overview</title>
+  <style type="text/css">
+    text { font-family: sans-serif; font-size: 14px; fill: black; text-anchor: middle; }
+    rect { fill: white; stroke: black; stroke-width: 2; rx: 10; ry: 10; }
+    .dotted { fill: white; stroke: black; stroke-width: 2; stroke-dasharray: 5,5; }
+  </style>
+  
+  <!-- Outer Box -->
+  <rect x="50" y="50" width="630" height="220" rx="15" ry="15" />
+  <text x="365" y="80">Text and Data Mining</text>
+  
+  <!-- AI Training Box -->
+  <rect x="80" y="100" width="380" height="130" rx="10" ry="10" />
+  <text x="380" y="170">AI Training</text>
+  
+  <!-- Generative AI Training Box -->
+  <rect x="110" y="130" width="200" height="70" rx="5" ry="5" />
+  <text x="210" y="170">Generative AI Training</text>
+  
+  <!-- Additional Use Cases Box -->
+  <rect x="500" y="100" width="150" height="130" class="dotted" rx="5" ry="5" />
+  <text x="575" y="160">[possibly]:</text>
+  <text x="575" y="180">additional use cases</text>
+</svg>
