@@ -37,7 +37,7 @@ informative:
     target: https://eur-lex.europa.eu/eli/dir/2019/790/oj
     author:
      org: European Union
-    date: "2019-05-17"
+    date: 2019-05-17
 
 --- abstract
 
