@@ -9,19 +9,19 @@ number:
 date:
 consensus: true
 v: 3
-area: AREA
-workgroup: WG Working Group
+area: ""
+workgroup: "AI Preferences"
 keyword:
  - AI Preferences
  - Opt-Out
  - Vocabulary
 venue:
-  group: WG
-  type: Working Group
-  mail: ai-control@ietf.org
-  arch: https://example.com/WG
-  github: paul2keller/opt-out-vocab-id
-  latest: https://example.com/LATEST
+  group: "AI Preferences"
+  type: ""
+  mail: "ai-control@ietf.org"
+  arch: "https://mailarchive.ietf.org/arch/browse/ai-control/"
+  github: "paul2keller/opt-out-vocab-id"
+  latest: "https://paul2keller.github.io/opt-out-vocab-id/draft-keller-aipref-vocab.html"
 
 author:
  -
