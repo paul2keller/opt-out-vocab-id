@@ -93,7 +93,7 @@ The figure below shows the relationship between the currently defined categories
 <figure>
 <name>NMS View of Device State</name>
 <artset>
-<artwork type="svg" src="https://raw.githubusercontent.com/paul2keller/opt-out-vocab-id/main/Opt-out-vocab-overview.svg"/>
+<artwork type="svg" src="Opt-out-vocab-overview.svg"/>
 <artwork type="ascii-art">
 +--------------------------------------------------------------------------+
 |                                                                          |
