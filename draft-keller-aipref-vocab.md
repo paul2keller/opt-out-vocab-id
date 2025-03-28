@@ -3,8 +3,8 @@ title: "Proposal for an Opt-Out Vocabulary"
 abbrev: "Opt-Out Vocab"
 category: info
 
-docname: draft-keller-aipref-vocab
-submissiontype: IETF  
+docname: draft-keller-aipref-vocab-latest
+submissiontype: IETF
 number:
 date:
 consensus: true
@@ -66,7 +66,7 @@ The vocabulary is intended to both work in contexts where such opt-outs expresse
 
 # Vocabulary Structure
 
-The vocabulary consists of the overarching TDM (Text and Data Mining) category and a number of specific use cases that can be addressed independently. The overarching category `TDM` is based on the definition of Text and Data Mining in Article 2(2) of {{?EUCD2019}}.
+The vocabulary consists of the overarching TDM (Text and Data Mining) category and a number of specific use cases that can be addressed independently. The overarching category `TDM` is based on the definition of Text and Data Mining in Article 2(2) of {{EUCD2019}}.
 
 # Proposed Vocabulary
 
@@ -93,7 +93,29 @@ The figure below shows the relationship between the currently defined categories
 <figure>
 <name>NMS View of Device State</name>
 <artset>
-<artwork type="svg" src="https://raw.githubusercontent.com/paul2keller/opt-out-vocab-id/main/Opt-out-vocab-overview.svg"/>
+<artwork type="svg">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="750" height="300" viewBox="0 0 750 300" text-anchor="middle" stroke-width="2" font-size="14" font-family="sans-serif">
+  <title>Opt-out vocabulary overview</title>
+
+  <!-- Outer Box -->
+  <rect x="50" y="50" width="630" height="220" rx="15" ry="15" fill="white" stroke="black"/>
+  <text x="365" y="80">Text and Data Mining</text>
+
+  <!-- AI Training Box -->
+  <rect x="80" y="100" width="380" height="130" rx="10" ry="10" fill="white" stroke="black" />
+  <text x="380" y="170">AI Training</text>
+
+  <!-- Generative AI Training Box -->
+  <rect x="110" y="130" width="200" height="70" rx="5" ry="5" fill="white" stroke="black" />
+  <text x="210" y="170">Generative AI Training</text>
+
+  <!-- Additional Use Cases Box -->
+  <rect x="500" y="100" width="150" height="130" class="dotted" rx="5" ry="5" fill="white" stroke="black" stroke-dasharray="5,5" />
+  <text x="575" y="160">[possibly]:</text>
+  <text x="575" y="180">additional use cases</text>
+</svg>
+
+</artwork>
 <artwork type="ascii-art">
 +--------------------------------------------------------------------------+
 |                                                                          |
@@ -109,7 +131,7 @@ The figure below shows the relationship between the currently defined categories
 | |  +--------------------------+              |  |                     |  |
 | +--------------------------------------------+  +- - - - - - - - - - -+  |
 |                                                                          |
-+--------------------------------------------------------------------------+ 
++--------------------------------------------------------------------------+
 </artwork>
 </artset>
 </figure>
@@ -139,6 +161,4 @@ The following individuals have been involved in the drafting of the proposal:
 * Cullen Miller, Spawing.ai
 * Sebastian Posth, Liccium
 * Leonard Rosenthol, Adobe
-* Laurent Le Meur, EDRLab 
-
-
+* Laurent Le Meur, EDRLab
