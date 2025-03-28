@@ -3,8 +3,8 @@ title: "Proposal for an Opt-Out Vocabulary"
 abbrev: "Opt-Out Vocab"
 category: info
 
-docname: draft-keller-aipref-vocab
-submissiontype: IETF  
+docname: draft-keller-aipref-vocab-latest
+submissiontype: IETF
 number:
 date:
 consensus: true
@@ -66,7 +66,7 @@ The vocabulary is intended to both work in contexts where such opt-outs expresse
 
 # Vocabulary Structure
 
-The vocabulary consists of the overarching TDM (Text and Data Mining) category and a number of specific use cases that can be addressed independently. The overarching category `TDM` is based on the definition of Text and Data Mining in Article 2(2) of {{?EUCD2019}}.
+The vocabulary consists of the overarching TDM (Text and Data Mining) category and a number of specific use cases that can be addressed independently. The overarching category `TDM` is based on the definition of Text and Data Mining in Article 2(2) of {{EUCD2019}}.
 
 # Proposed Vocabulary
 
@@ -109,7 +109,7 @@ The figure below shows the relationship between the currently defined categories
 | |  +--------------------------+              |  |                     |  |
 | +--------------------------------------------+  +- - - - - - - - - - -+  |
 |                                                                          |
-+--------------------------------------------------------------------------+ 
++--------------------------------------------------------------------------+
 </artwork>
 </artset>
 </figure>
@@ -139,6 +139,4 @@ The following individuals have been involved in the drafting of the proposal:
 * Cullen Miller, Spawing.ai
 * Sebastian Posth, Liccium
 * Leonard Rosenthol, Adobe
-* Laurent Le Meur, EDRLab 
-
-
+* Laurent Le Meur, EDRLab
