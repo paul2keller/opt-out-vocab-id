@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-03-27T01:22:25.333412+00:00",
+  "timestamp": "2025-03-30T01:36:22.685802+00:00",
   "repo": "paul2keller/opt-out-vocab-id",
   "labels": [
     {
@@ -50,5 +50,34 @@
     }
   ],
   "issues": [],
-  "pulls": []
+  "pulls": [
+    {
+      "number": 1,
+      "id": "PR_kwDOOFqhkc6Qf_Kz",
+      "title": "Make it make",
+      "url": "https://github.com/paul2keller/opt-out-vocab-id/pull/1",
+      "state": "MERGED",
+      "author": "martinthomson",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "This will make the draft build (it was an extra ? on the reference that had it break).\r\n\r\n~~There are warnings about the SVG when I build this.  The result suggests that the xml2rfc tool is doing something to damage it.  I'll see if there is an easy fix for that (it might be offensive, but it might be necessary, sadly).~~  The SVG fix wasn't too bad in the end.  It took me a while to realize that it was still downloading from the internet and my edits weren't having any effect, so I probably overdid it a little.  Still, this would appear to do the job.\r\n\r\nI don't know if tagging this will result in the right outcome, but you can try.",
+      "createdAt": "2025-03-28T05:11:24Z",
+      "updatedAt": "2025-03-28T08:06:33Z",
+      "baseRepository": "paul2keller/opt-out-vocab-id",
+      "baseRefName": "main",
+      "baseRefOid": "3e16c14c34f202c215d87884a8ed3f2696da51af",
+      "headRepository": "martinthomson/opt-out-vocab-id",
+      "headRefName": "fixes",
+      "headRefOid": "cd9f89da7439283a3d6b15317f6d8b4aa177b0ea",
+      "closedAt": "2025-03-28T08:06:33Z",
+      "mergedAt": "2025-03-28T08:06:33Z",
+      "mergedBy": "paul2keller",
+      "mergeCommit": {
+        "oid": "a814e7335f3109a5fba28eb79e8837aafa9f65e0"
+      },
+      "comments": [],
+      "reviews": []
+    }
+  ]
 }
